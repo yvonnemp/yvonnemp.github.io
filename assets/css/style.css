@@ -2720,9 +2720,18 @@ body.nav-hovered #main-navigation .navbar-toggler {
 }
 
 .ts-promo-number figure {
-    border-bottom: .25rem solid #000;
+    border-bottom: .25rem solid #fff;
     font-weight: 400;
     margin-bottom: 2.5rem;
+}
+.promo-number {
+    background-color: #000;
+}
+
+.odometer.odometer-auto-theme, 
+.odometer.odometer-theme-default, 
+.promo-number h5 {
+    color: #fff;
 }
 
 @media (max-width: 35.9375rem) {
