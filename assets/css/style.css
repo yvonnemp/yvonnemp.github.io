@@ -3083,6 +3083,16 @@ h1 a.ts-underline {
     }
 }
 
+div#brand {
+    display: none;
+}
+
+@media(max-width: 575px) {
+    div#brand {
+        display: block;
+    }
+}
+
 @media (min-width: 36rem) {
     #brand {
         left: 0;
